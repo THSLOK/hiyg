@@ -2,11 +2,7 @@
 # Modified by SirLez, zett.0, Bovonos
 
 import threading
-import os
 
-os.system("pip3 uninstall websocket")
-os.system("pip3 uninstall websocket-client")
-os.system("pip install websocket-client==1.3.1")
 import time as timer
 from sys import _getframe as getframe
 from typing import Union
